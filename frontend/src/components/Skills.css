@@ -1,0 +1,50 @@
+/* Skills.css */
+
+.skills-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.skills-section h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.skills-section .web-skills,
+.skills-section .networking-skills {
+  margin: 40px 0;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-section .web-skills li {
+  margin: 10px 20px;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+.skills-section .networking-skills {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-section .networking-skills li {
+  margin: 10px 20px;
+  padding: 10px 15px;
+  border: 1px solid #28a745;
+  border-radius: 5px;
+  background: #e6ffe6;
+}
